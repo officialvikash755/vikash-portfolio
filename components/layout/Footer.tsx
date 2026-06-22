@@ -13,9 +13,7 @@ const footerLinks = siteConfig.navLinks.filter((link) =>
   ["home", "about", "projects", "contact"].includes(link.sectionId),
 );
 
-const socialLinks = siteConfig.socialLinks.filter(
-  (link) => link.icon !== "twitter",
-);
+const socialLinks = siteConfig.socialLinks;
 
 const iconMap = {
   github: FaGithub,
